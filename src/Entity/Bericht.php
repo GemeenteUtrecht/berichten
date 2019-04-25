@@ -23,7 +23,7 @@ use ActivityLogBundle\Entity\Interfaces\StringableInterface;
  * @version    	1.0
  *
  * @link   		http//:www.conduction.nl
- * @package		Commen Ground
+ * @package		Common Ground
  * @subpackage  Berichten
  * 
  *  @ApiResource( 
@@ -33,6 +33,7 @@ use ActivityLogBundle\Entity\Interfaces\StringableInterface;
  *  		"denormalizationContext"={"groups"={"write"}},
  *      	"path"="/berichten",
  *  		"openapi_context" = {
+ * 				"summary" = "Haalt een verzameling van berichten op"
  *  		}
  *  	},
  *  	"post"={
@@ -40,6 +41,7 @@ use ActivityLogBundle\Entity\Interfaces\StringableInterface;
  *  		"denormalizationContext"={"groups"={"write"}},
  *      	"path"="/berichten",
  *  		"openapi_context" = {
+ * 					"summary" = "Maak een bericht aan"
  *  		}
  *  	}
  *  },
@@ -49,6 +51,7 @@ use ActivityLogBundle\Entity\Interfaces\StringableInterface;
  *  		"denormalizationContext"={"groups"={"write"}},
  *      	"path"="/berichten/{id}",
  *  		"openapi_context" = {
+ * 				"summary" = "Haalt een specifiek bericht op"
  *  		}
  *  	},
  *     "put"={
@@ -56,6 +59,7 @@ use ActivityLogBundle\Entity\Interfaces\StringableInterface;
  *  		"denormalizationContext"={"groups"={"write"}},
  *      	"path"="/berichten/{id}",
  *  		"openapi_context" = {
+ * 				"summary" = "Vervang een specifiek bericht"
  *  		}
  *  	},
  *     "log"={
@@ -82,7 +86,7 @@ use ActivityLogBundle\Entity\Interfaces\StringableInterface;
  *         				"description" = "Ongeldige aanvraag"
  *         			},
  *         			"404" = {
- *         				"description" = "Huwelijk of aanvraag niet gevonden"
+ *         				"description" = "Bericht niet gevonden"
  *         			}
  *            	}            
  *         }
@@ -111,7 +115,7 @@ use ActivityLogBundle\Entity\Interfaces\StringableInterface;
  *         				"description" = "Ongeldige aanvraag"
  *         			},
  *         			"404" = {
- *         				"description" = "Huwelijk of aanvraag niet gevonden"
+ *         				"description" = "Bericht niet gevonden"
  *         			}
  *            	}            
  *         }

@@ -32,6 +32,7 @@ use ActivityLogBundle\Entity\Interfaces\StringableInterface;
  *  		"denormalizationContext"={"groups"={"write"}},
  *      	"path"="/sjablonen",
  *  		"openapi_context" = {
+ * 				"summary" = "Haalt een verzameling van sjablonen op"
  *  		}
  *  	},
  *  	"post"={
@@ -39,6 +40,7 @@ use ActivityLogBundle\Entity\Interfaces\StringableInterface;
  *  		"denormalizationContext"={"groups"={"write"}},
  *      	"path"="/sjablonen",
  *  		"openapi_context" = {
+ * 					"summary" = "Maak een sjabloon aan"
  *  		}
  *  	}
  *  },
@@ -48,6 +50,7 @@ use ActivityLogBundle\Entity\Interfaces\StringableInterface;
  *  		"denormalizationContext"={"groups"={"write"}},
  *      	"path"="/sjablonen/{id}",
  *  		"openapi_context" = {
+ * 				"summary" = "Haalt een specifiek sjabloon op"
  *  		}
  *  	},
  *     "put"={
@@ -55,6 +58,7 @@ use ActivityLogBundle\Entity\Interfaces\StringableInterface;
  *  		"denormalizationContext"={"groups"={"write"}},
  *      	"path"="/sjablonen/{id}",
  *  		"openapi_context" = {
+ * 				"summary" = "Vervang een specifiek sjabloon"
  *  		}
  *  	},
  *     "delete"={
@@ -62,6 +66,7 @@ use ActivityLogBundle\Entity\Interfaces\StringableInterface;
  *  		"denormalizationContext"={"groups"={"write"}},
  *      	"path"="/sjablonen/{id}",
  *  		"openapi_context" = {
+ * 				"summary" = "Verwijder een specifiek sjabloon"
  *  		}
  *  	},
  *     "log"={
@@ -88,7 +93,7 @@ use ActivityLogBundle\Entity\Interfaces\StringableInterface;
  *         				"description" = "Ongeldige aanvraag"
  *         			},
  *         			"404" = {
- *         				"description" = "Huwelijk of aanvraag niet gevonden"
+ *         				"description" = "Sjabloon niet gevonden"
  *         			}
  *            	}            
  *         }
@@ -117,7 +122,7 @@ use ActivityLogBundle\Entity\Interfaces\StringableInterface;
  *         				"description" = "Ongeldige aanvraag"
  *         			},
  *         			"404" = {
- *         				"description" = "Huwelijk of aanvraag niet gevonden"
+ *         				"description" = "Sjabloon niet gevonden"
  *         			}
  *            	}            
  *         }
