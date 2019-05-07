@@ -14,6 +14,9 @@ parameters:
             description: |
                 Welkom inovator! <br>
                 Fijn dat je de tijd en moeite hebt genomen om je te verdiepen in dit component. 
+
+                # Ondersteuning
+                Word lid van het slackkanaal [https://zaakonline.slack.com](https://zaakonline.slack.com) voor ondersteuning door het ontwikkel team. En krijg regelmatig updates over de ontwikkelingen op het gebied van de zaakonline componenten.
                 
                 # Introductie               
                 Het berichten component is ontwikkeld voor de gemeente Utrecht en heeft als doel het functionele berichten verkeer te faciliteren. Denk hier bij aan berichten via een email naar een klant waar een, mogelijk, sjabloon in gebruikt wordt
