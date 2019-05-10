@@ -245,7 +245,7 @@ class Sjabloon implements StringableInterface
 	public $naam;
 	
 	/**
-	 * Een beschrijvende tekst over dit sjabloon  <br /><b>Schema:</b> <a href="https://schema.org/description">https://schema.org/description</a>
+	 * Een uitgebreide beschrijvende tekst over dit Sjabloon bedoeld ter verdere verduidelijking.  <br /><b>Schema:</b> <a href="https://schema.org/description">https://schema.org/description</a>
 	 *
 	 * @var string
 	 *
